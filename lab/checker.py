@@ -60,7 +60,6 @@ class _Checker(object):
 
     @staticmethod
     def _check_single(returned, expected):
-
         if isinstance(returned, list) and isinstance(expected, np.ndarray):
             returned = np.array(returned)
 
