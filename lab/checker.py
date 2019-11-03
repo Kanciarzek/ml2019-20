@@ -255,6 +255,10 @@ def check_02_pca(pca_cls):
     returned = pca.transform(input_data)
     # np.savez_compressed(file=".checker/05/pca_random.out", data=returned)
     expected = np.load(".checker/05/pca_random.out.npz")["data"]
+    print(expected)
+    print(returned)
+    print(expected.shape)
+    print(returned.shape)
     assert np.allclose(expected, returned, rtol=1e-03, atol=1e-06), "Wrong value returned!"
 
     input_data = datasets.load_iris().data
