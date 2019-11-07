@@ -60,6 +60,7 @@ class _Checker(object):
 
     @staticmethod
     def _check_single(returned, expected):
+
         if isinstance(returned, list) and isinstance(expected, np.ndarray):
             returned = np.array(returned)
 
@@ -285,6 +286,8 @@ def check_02_linear_regression(lr_cls):
     returned = lr.predict(input_dataset.data)
     # np.savez_compressed(".checker/05/lr_boston.out.npz", data=returned)
     expected = np.load(".checker/05/lr_boston.out.npz")["data"]
+    print(expected)
+    print(returned)
     assert np.allclose(expected, returned, rtol=1e-03, atol=1e-06), "Wrong prediction returned!"
 
     loss = lr.loss(input_dataset.data, input_dataset.target)
