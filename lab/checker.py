@@ -499,5 +499,8 @@ def test_optimizer(optim_cls):
             loss.backward()
             opt.step()
         
+		
         for p, tp in zip(params, torch_params):
+            print(p)
+            print(tp)
             assert torch.allclose(p, tp)
