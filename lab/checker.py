@@ -501,6 +501,4 @@ def test_optimizer(optim_cls):
         
 		
         for p, tp in zip(params, torch_params):
-            print(p)
-            print(tp)
             assert torch.allclose(p, tp)
