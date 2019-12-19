@@ -9,3 +9,5 @@ Materiały do wykładu Uczenie maszynowe w semestrze zimowym 2019-2020
 * **07 Regresja logistyczna i PyTorch**
   * Grupa pierwsza - 23:59 19.11.2019
   * Grupa druga - 23:59 20.11.2019
+
+Projekt (we współpracy z GMUMem): Uzupełnianie wyciętych fragmentów zdjęć. 
