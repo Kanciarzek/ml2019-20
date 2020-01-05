@@ -11,3 +11,6 @@ Materiały do wykładu Uczenie maszynowe w semestrze zimowym 2019-2020
   * Grupa druga - 23:59 20.11.2019
 
 Projekt (we współpracy z GMUMem): Uzupełnianie wyciętych fragmentów zdjęć. 
+* **08-11 Zgodnie z zasadami zaliczania**
+* **12 RNNs**
+  * Obie grupy - 23:59 05.01.2020. **Notebook nieobowiązkowy (na dodatkowe punkty)**
